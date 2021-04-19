@@ -1,0 +1,86 @@
+.deck
+{
+    height: 150px;
+    width: 7rem;
+    font-size: 1.75rem;
+    border: 3px solid black;
+    border-radius: .3rem;
+    user-select: none;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background: red;
+    position: fixed;
+
+}
+.card{
+    height: 10rem;
+    width: 7rem;
+    font-size: 1.75rem;
+    border: 3px solid black;
+    border-radius: .3rem;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+canvas
+{
+border: 1px solid black;
+background-color: rgb(1,140,102);
+}
+
+.game-container
+{
+    padding:40px;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1,140,102);
+    height: 200px;
+    border-bottom: 3px solid black;
+}
+.player-container
+{
+    width:60%;
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1,140,102);
+    height: 200px;
+}
+.button-container
+{
+    align-items: center;
+    justify-content: center;
+}
+#start
+{
+    width: 100px;
+    height:100px;
+    size: 3rem;
+    background-color: green;
+}
+#hit
+{
+    width: 100px;
+    height: 50px;
+    size: 3rem;
+    align-items: center;
+    
+    background-color: gold;
+}
+#stay{
+    width: 100px;
+    height: 50px;
+    size: 3rem;
+    background-color: gray;
+}
+.black{
+    color: black;
+}
+.red
+{
+    color:red;
+}
